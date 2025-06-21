@@ -66,8 +66,8 @@ export const BodyHome = () => {
           <div>
             {id && (
               <p className="mt-2 font-heading break-all">
-                <p className = 'text-primtext font-bold'>This is your link:</p> <Link to={`http://localhost:5173/FindNote/${id}`} className = 'text-sectext'> 
-                  http://localhost:5173/FindNote/{id}
+                <p className = 'text-primtext font-bold'>This is your link:</p> <Link to={`https://pasteit-1-0yix.onrender.com/FindNote/${id}`} className = 'text-sectext'> 
+                  https://pasteit-1-0yix.onrender.com/FindNote/{id}
                 </Link>
               </p>
             )}
