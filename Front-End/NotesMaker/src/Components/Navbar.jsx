@@ -10,8 +10,6 @@ export const Navbar = () => {
       <div className='flex'>
         <Link to='/' className='m-3 p-3 text-primtext hover:text-butthover'>Home</Link>
         <Link to='/FindNote' className='m-3 p-3 text-primtext hover:text-butthover'>Find Note</Link>
-        <Link to='/' className='m-3 p-3 text-primtext hover:text-butthover'>About Us</Link>
-        <Link to='/' className='m-3 p-3 text-primtext hover:text-butthover'>Purpose</Link>
       </div>
       <div className='m-3 p-3'><button className="cursor-pointer transition-all bg-primbutt text-white px-5 py-2 rounded-sm hover:butthover hover:-translate-y-[1px]">
         More
