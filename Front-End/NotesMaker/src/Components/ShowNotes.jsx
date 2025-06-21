@@ -13,7 +13,7 @@ export const ShowNotes = () => {
     useEffect(() => {
         const fetchNote = async () => {
             try {
-                const res = await axios.get(`http://localhost:7000/api/v1/notes/FindNotes/${id}`);
+                const res = await axios.get(`https://pasteit-1-0yix.onrender.com/api/v1/notes/FindNotes/${id}`);
                 setNote(res.data.data.note);
             } catch (err) {
                 console.error('This is an error');
