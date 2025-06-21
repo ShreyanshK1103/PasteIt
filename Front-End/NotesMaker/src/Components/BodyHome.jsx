@@ -17,7 +17,7 @@ export const BodyHome = () => {
     event.preventDefault();
 
     try {
-      const response = await axios.post('https://pasteit-1-0yix.onrender.com/api/notes', {
+      const response = await axios.post('https://pasteit-1-0yix.onrender.com/api/v1/notes', {
         text: term
       });
 
