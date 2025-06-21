@@ -52,7 +52,7 @@ cd PasteIt
 ### 2. Setup the Backend
 
 ```bash
-cd server
+cd Back-End
 npm install
 ```
 
@@ -72,7 +72,7 @@ npm start
 ### 3. Setup the Frontend
 
 ```bash
-cd ../Back-End
+cd ../Front-End
 npm install
 npm run dev
 ```
