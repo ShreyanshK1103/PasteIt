@@ -1,0 +1,12 @@
+# System
+.DS_Store
+*.log
+
+# Global node_modules (safety)
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Secrets
